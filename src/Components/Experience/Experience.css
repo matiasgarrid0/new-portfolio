@@ -1,0 +1,100 @@
+:root {
+  --grey: #f4f4f4;
+  --red: #ff4d4d;
+  --hardGrey: #353535;
+}
+
+.div-container-experience {
+  height: 24rem;
+  background-color: var(--grey);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.div-container-elements-experience {
+  width: 70rem;
+}
+.p-title-experience {
+  margin: 0;
+  padding-top: 2rem;
+  font-size: 3rem;
+  font-weight: 600;
+  border-bottom: solid 3px var(--red);
+}
+.div-container-cards-experience {
+  width: 70rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.div-card-experience {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  width: 34rem;
+  height: 12rem;
+  margin-top: 2rem;
+  -webkit-box-shadow: 0px 5px 20px 0px rgba(158, 158, 158, 1);
+  -moz-box-shadow: 0px 5px 20px 0px rgba(158, 158, 158, 1);
+  box-shadow: 0px 5px 20px 0px rgba(158, 158, 158, 1);
+}
+.img-card-experience{
+    width: 10rem;
+}
+.container-elemnts-card-experience{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 28rem;
+}
+.tilte-experience{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--hardGrey);
+    margin-bottom: 0;
+    border-bottom: solid 2px var(--red);
+}
+.p-roll-experience{
+    font-size: 1.1rem;
+    color: var(--hardGrey);
+    font-weight: 600;
+}
+/*-----------------------------------------------------------------*/
+/*-------------------------*MEDIA QUERIES*-------------------------*/
+/*-----------------------------------------------------------------*/
+
+@media (max-width: 600px) {
+    .div-container-experience {
+        height: 42rem;
+    }
+  .div-container-elements-experience {
+    width: 20rem;
+  }
+  .p-title-experience {
+    font-size: 2rem;
+  }
+  .div-container-cards-experience {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .div-card-experience {
+    width: 20rem;
+    height: 15rem;
+  }
+  .tilte-experience{
+font-size: 1.4rem;
+}
+  .container-elemnts-card-experience{
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+}
+  .img-card-experience{
+    width: 7rem;
+}
+.p-roll-experience{
+    font-size: 0.9rem;
+}
+}

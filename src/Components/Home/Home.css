@@ -1,0 +1,243 @@
+:root {
+  --red: #ff4d4d;
+  --lightRed: #ff6565;
+  --purple: #696dfb;
+  --lightPurple: #8488f8;
+}
+
+/*-----------------------------------------------------------------*/
+/*-----------------------------*HOME*------------------------------*/
+/*-----------------------------------------------------------------*/
+
+.div-container-home {
+  background-image: url(../../Images/banner.jpg);
+  height: 40rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.div-background-home {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 40rem;
+}
+.div-container-elements-home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-text-home {
+  width: 70rem;
+}
+.p-hello-home {
+  font-size: 5rem;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+.span-hello-home {
+  font-weight: 800;
+  color: var(--red);
+}
+.p-text-home {
+  color: #fff;
+  font-size: 1.8rem;
+}
+/*-----Buttons-----*/
+.container-buttons-home {
+  width: 70rem;
+  display: flex;
+}
+.button-home-projects {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+  background-color: var(--red);
+  color: #fff;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1rem 5rem;
+}
+.button-home-projects:hover {
+  cursor: pointer;
+  background-color: var(--lightRed);
+}
+.button-home-hire {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+  background-color: #696dfb;
+  color: #fff;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1rem 5rem;
+}
+.button-home-hire:hover {
+  cursor: pointer;
+  background-color: #8488f8;
+}
+
+/*-----------------------------------------------------------------*/
+/*----------------------------*HEADER*-----------------------------*/
+/*-----------------------------------------------------------------*/
+
+.div-container-header {
+  height: 7rem;
+  background-color: transparent;
+  backdrop-filter: blur(6px);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  -webkit-box-shadow: 0px 29px 55px -26px rgba(77, 77, 77, 1);
+  -moz-box-shadow: 0px 29px 55px -26px rgba(77, 77, 77, 1);
+  box-shadow: 0px 29px 55px -26px rgba(77, 77, 77, 1);
+}
+.div-container-elements-header {
+  width: 70rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.p-title-name-header {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: -1.5rem;
+}
+.p-title-service-header {
+  color: #fff;
+  font-size: 1.1rem;
+}
+.div-container-menu-header {
+  display: flex;
+  width: 20rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.div-container-menu-header a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding-bottom: 1rem;
+  margin-bottom: -1rem;
+}
+.div-container-menu-header a:hover {
+  border-bottom: solid 2px var(--red);
+}
+/*-----------------------------------------------------------------*/
+/*----------------------------*DRAWER*-----------------------------*/
+/*-----------------------------------------------------------------*/
+.div-container-drawer-header {
+  display: none;
+}
+.div-drawer-contain {
+  width: 100%;
+}
+.div-drawer {
+  display: none;
+}
+
+/*-----------------------------------------------------------------*/
+/*-------------------------*MEDIA QUERIES*-------------------------*/
+/*-----------------------------------------------------------------*/
+
+@media (max-width: 600px) {
+  /*-----------------------------*HOME*-----------------------------*/
+  .container-text-home {
+    width: 20rem;
+  }
+  .p-hello-home {
+    font-size: 5rem;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .span-hello-home {
+    font-weight: 800;
+  }
+  .p-text-home {
+    font-size: 1.4rem;
+  }
+  /*-----Buttons-----*/
+  .container-buttons-home {
+    width: 70rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .button-home-projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2rem;
+    color: #fff;
+    border: none;
+    font-size: 1.5rem;
+    width: 20rem;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    margin-top: 1rem;
+  }
+
+  .button-home-hire {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2rem;
+    color: #fff;
+    border: none;
+    width: 20rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 10px 20px;
+  }
+
+  /*----------------------------*HEADER*-----------------------------*/
+  .div-container-elements-header {
+    width: 20rem;
+    height: 1rem;
+  }
+  .p-title-name-header {
+    font-size: 1.3rem;
+  }
+  .p-title-service-header {
+    font-size: 1rem;
+  }
+  .div-container-menu-header {
+    display: none;
+  }
+  .container-buttons-home {
+    width: 20rem;
+  }
+  /*----------------------------*DRAWER*-----------------------------*/
+  .div-container-drawer-header {
+    display: flex;
+  }
+  .div-drawer {
+    display: flex;
+  }
+  .div-container-menu-mobile {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 1rem;
+    width: 15rem;
+  }
+  .div-container-menu-mobile a {
+    color: #595959;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 1rem;
+    border-bottom: solid 2px red;
+  }
+}

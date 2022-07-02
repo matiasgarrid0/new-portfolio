@@ -3,7 +3,7 @@ import { SwipeableDrawer, IconButton } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
 export const Drawer = () => {
   const [state, setState] = useState({
-    top: false,
+    right: false,
   });
   const toggleDrawer = (anchor, open) => (event) => {
     if (
@@ -18,8 +18,8 @@ export const Drawer = () => {
   };
 
   return (
-    <div>
-      {["top"].map((anchor) => (
+    <div className="div-drawer">
+      {["right"].map((anchor) => (
         <React.Fragment key={anchor}>
           <IconButton
             anchor={anchor}
