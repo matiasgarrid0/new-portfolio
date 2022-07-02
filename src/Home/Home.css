@@ -1,0 +1,115 @@
+/*-----------------------------------------------------------------*/
+/*-----------------------------*HOME*------------------------------*/
+/*-----------------------------------------------------------------*/
+
+.div-container-home {
+  background-image: url(../Images/banner.jpg);
+  height: 40rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+.div-background-home {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 40rem;
+}
+
+/*-----------------------------------------------------------------*/
+/*----------------------------*HEADER*-----------------------------*/
+/*-----------------------------------------------------------------*/
+
+.div-container-header {
+  height: 6rem;
+  background-color: transparent;
+  backdrop-filter: blur(6px);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  -webkit-box-shadow: 0px 29px 55px -26px rgba(77, 77, 77, 1);
+  -moz-box-shadow: 0px 29px 55px -26px rgba(77, 77, 77, 1);
+  box-shadow: 0px 29px 55px -26px rgba(77, 77, 77, 1);
+}
+.div-container-elements-header {
+  width: 70rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.div-container-brand-header {
+}
+.p-title-name-header {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: -1.5rem;
+}
+.p-title-service-header {
+  color: #fff;
+  font-size: 1.1rem;
+}
+.div-container-menu-header {
+  width: 20rem;
+  display: flex;
+  justify-content: space-between;
+}
+.div-container-menu-header a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+/*-----------------------------------------------------------------*/
+/*----------------------------*DRAWER*-----------------------------*/
+/*-----------------------------------------------------------------*/
+.div-container-drawer-header {
+  display: none;
+}
+.div-drawer-contain{
+    width: 100%;
+}
+
+/*-----------------------------------------------------------------*/
+/*-------------------------*MEDIA QUERIES*-------------------------*/
+/*-----------------------------------------------------------------*/
+@media (max-width: 600px) {
+  /*----------------------------*HEADER*-----------------------------*/
+
+  .div-container-elements-header {
+    width: 20rem;
+    height: 1rem;
+  }
+  .p-title-name-header {
+    font-size: 1.3rem;
+  }
+  .p-title-service-header {
+    font-size: 1rem;
+  }
+  .div-container-brand-header {
+  }
+  .div-container-menu-header {
+    display: none;
+  }
+  /*----------------------------*DRAWER*-----------------------------*/
+  .div-container-drawer-header {
+    display: flex;
+  }
+  .div-drawer-contain{
+    width: 100%;
+ }
+ .div-container-menu-mobile{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+ }
+ .div-container-menu-mobile a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 1rem;
+ }
+}
