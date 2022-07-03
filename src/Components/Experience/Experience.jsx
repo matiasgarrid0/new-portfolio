@@ -11,28 +11,36 @@ export const Experience = () => {
   return (
     <div className="div-container-experience">
       <div className="div-container-elements-experience">
-        <p data-aos="fade-up" className="p-title-experience">
+        <p data-aos="fade-right" className="p-title-experience">
           EXPERIENCE
         </p>
-        <div className="div-container-cards-experience">
-          <div className="div-card-experience" data-aos="fade-right">
+        <div className="div-container-cards-experience" data-aos="fade-right">
+          <div className="div-card-experience">
             <div className="container-elemnts-card-experience">
               <img className="img-card-experience" src={SJ} alt="sj" />
               <div>
                 <p className="tilte-experience">Automóviles San Jorge</p>
                 <p>
-                  <span span className="p-roll-experience">Roll:</span> Front-End developer
+                  <span span className="p-roll-experience">
+                    Roll:
+                  </span>{" "}
+                  Front-End developer
                 </p>
               </div>
             </div>
           </div>
-          <div className="div-card-experience" data-aos="fade-left">
+          <div className="div-card-experience">
             <div className="container-elemnts-card-experience">
-              <img className="img-card-experience" src={Lindo} alt="lindosoft"  />
+              <img
+                className="img-card-experience"
+                src={Lindo}
+                alt="lindosoft"
+              />
               <div>
                 <p className="tilte-experience">Lindo.la Software</p>
                 <p>
-                  <span className="p-roll-experience">Roll:</span> Front-End developer
+                  <span className="p-roll-experience">Roll:</span> Front-End
+                  developer
                 </p>
               </div>
             </div>

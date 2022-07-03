@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Crypto Hunter",
+    "description": "Get information of the trending coins, search and follow prices and market changes",
+    "site": "https://cryptohunter-mgdev.netlify.app/",
+    "repository": "https://github.com/matiasgarrid0/crypto-hunter",
+    "img": "https://i.postimg.cc/65pV43rm/crypto-Lap.png"
+  },
+  {
+    "id": 2,
+    "title": "Henropoly",
+    "description": "Henropoly is a video game online where you can play and learn about tecnologies with your friend in real time",
+    "site": "https://henropoly.vercel.app/",
+    "repository": "https://github.com/matiasgarrid0/Henropoly",
+    "img": "https://i.postimg.cc/NGpmtc37/henrop.png"
+  },
+  {
+    "id": 3,
+    "title": "Crypto Hunter",
+    "description": "Get information of the trending coins, search and follow prices and market changes",
+    "site": "https://cryptohunter-mgdev.netlify.app/",
+    "repository": "https://github.com/matiasgarrid0/crypto-hunter",
+    "img": "https://i.postimg.cc/65pV43rm/crypto-Lap.png"
+  }
+]

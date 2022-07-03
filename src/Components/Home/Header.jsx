@@ -10,7 +10,7 @@ const Header = () => {
           <p  className='p-title-service-header'>Web Developer & Designer</p>
         </div>
         <div className='div-container-menu-header'>
-            <a href="/">HOME</a>
+            <a href="/">EXPERIENCE</a>
             <a href="/">PROJECTS</a>
             <a href="/">CONTACT ME</a>
         </div>
