@@ -1,97 +1,101 @@
 :root {
-    --red: #ff4d4d;
-    --lightRed: #ff6565;
-    --purple: #696dfb;
-    --lightPurple: #8488f8;
-    --hardGrey: #353535;
-  }
+  --red: #ff4d4d;
+  --lightRed: #ff6565;
+  --purple: #696dfb;
+  --lightPurple: #8488f8;
+  --hardGrey: #353535;
+}
 
-.div-container-projects{
-    height: 63rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.div-container-projects {
+  height: 63rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.div-card-container-project{
-    display: flex;
-    justify-content: center;
-    margin-top: 2rem;
-    padding-bottom: 2rem;
-    border-bottom: solid 1px var(--hardGrey);
+.div-card-container-project {
+  display: flex;
+  justify-content: space-between;
+  width: 70rem;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: solid 1px var(--hardGrey);
 }
-.img-laptop-project{
-    width: 25rem;
+.img-laptop-project {
+  width: 25rem;
+  margin-right: 10rem;
 }
-.div-text-project{
-    width: 40rem;
+.div-text-project {
+  display: flex;
+  width: 36rem;
+  flex-direction: column;
 }
-.p-title-project{
-    font-size: 1.4rem;
-    font-weight: 600;
-    color: var(--hardGrey);
+.p-title-project {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--hardGrey);
+  margin-bottom: 0;
 }
-.p-descritprion-project{
-    font-size: 1.1rem;
+.p-descritprion-project {
+  font-size: 1.1rem;
 }
 /*------Buttons------*/
-.container-buttons-project{
-    width: 28rem;
-    display: flex;
-    justify-content: space-between;
+.container-buttons-project {
+  width: 28rem;
+  display: flex;
+  justify-content: space-between;
 }
-.button-visit-project{
-    background-color: var(--red);
-    color: #fff;
-    border: none;
-    font-size: 1.3rem;
-    padding: 0.5rem 4rem;
+.button-visit-project {
+  background-color: var(--red);
+  color: #fff;
+  border: none;
+  font-size: 1.3rem;
+  padding: 0.5rem 4rem;
 }
-.button-visit-project:hover{
-    cursor: pointer;
-    background-color: var(--lightRed);
+.button-visit-project:hover {
+  cursor: pointer;
+  background-color: var(--lightRed);
 }
-.button-visit-repository{
-    background-color: var(--purple);
-    color: #fff;
-    border: none;
-    font-size: 1.3rem;
-    padding: 0.5rem 4rem;
+.button-visit-repository {
+  background-color: var(--purple);
+  color: #fff;
+  border: none;
+  font-size: 1.3rem;
+  padding: 0.5rem 4rem;
 }
-.button-visit-repository:hover{
-    cursor: pointer;
-    background-color: var(--lightPurple);
+.button-visit-repository:hover {
+  cursor: pointer;
+  background-color: var(--lightPurple);
 }
-
 
 /*-----------------------------------------------------------------*/
 /*-------------------------*MEDIA QUERIES*-------------------------*/
 /*-----------------------------------------------------------------*/
 
 @media (max-width: 600px) {
-    .div-container-projects{
-        height: 98rem;
-    }
-    .div-card-container-project{
-        display: flex;
-        flex-direction: column;
-    }
-    .div-text-project{
-        width: 20rem;
-    }
-    .img-laptop-project{
-        width: 20rem;
-    }
-    .container-buttons-project{
-        width: 20rem;
-        display: flex;
-        justify-content: space-between;
-    }
-    .button-visit-project{
-        font-size: 1.3rem;
-        padding: 0.5rem 2rem;
-    }
-    .button-visit-repository{
-        font-size: 1.3rem;
-        padding: 0.5rem 2rem;
-    }
+  .div-container-projects {
+    height: 98rem;
+  }
+  .div-card-container-project {
+    display: flex;
+    flex-direction: column;
+  }
+  .div-text-project {
+    width: 20rem;
+  }
+  .img-laptop-project {
+    width: 20rem;
+  }
+  .container-buttons-project {
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .button-visit-project {
+    font-size: 1.3rem;
+    padding: 0.5rem 2rem;
+  }
+  .button-visit-repository {
+    font-size: 1.3rem;
+    padding: 0.5rem 2rem;
+  }
 }

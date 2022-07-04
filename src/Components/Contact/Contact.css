@@ -64,7 +64,7 @@
 
 .img-contact {
   width: 15rem;
-  margin-right: 40rem;
+  margin-right: 18rem;
 }
 
 .field-email{
@@ -89,7 +89,7 @@
 }
 .container-button-form{
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 /*-----------------------------------------------------------------*/
@@ -98,7 +98,7 @@
 
 @media (max-width: 600px) {
     .div-container-contact{
-        height: 46rem;
+        height: 44rem;
     }
     .div-container-elemnts-contact{
         flex-direction: column;
