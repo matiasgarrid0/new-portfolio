@@ -16,7 +16,6 @@ export const Contact = () => {
   });
   const { user_email, user_name, message, subject } = forms;
 
-  console.log(forms.message.length)
 
   useEffect(() => {
     Aos.init({ duration: 1000 });
@@ -54,7 +53,7 @@ export const Contact = () => {
   };
 
   return (
-    <div className="div-container-contact">
+    <div className="div-container-contact" id='contact'>
       <div className="div-container-elements-experience">
         <ToastContainer
           position="top-center"
@@ -109,7 +108,7 @@ export const Contact = () => {
                       size="small"
                       required
                       name="user_name"
-                    value={user_name}
+                      value={user_name}
                       onChange={(e) => handleInputChange(e)}
                       inputProps={{ maxLength: 60 }}
                     />
@@ -122,7 +121,7 @@ export const Contact = () => {
                   fullWidth
                   size="small"
                   name="subject"
-                    value={subject}
+                  value={subject}
                   onChange={(e) => handleInputChange(e)}
                   inputProps={{ maxLength: 60 }}
                 />
@@ -136,12 +135,16 @@ export const Contact = () => {
                   maxRows={5}
                   minRows={5}
                   name="message"
-                    value={message}
+                  value={message}
                   onChange={(e) => handleInputChange(e)}
                   inputProps={{ maxLength: 400 }}
                 />
                 <div className="container-button-form">
-                  < input className="button-form-contact" type='submit' value='Send'/>
+                  <input
+                    className="button-form-contact"
+                    type="submit"
+                    value="Send"
+                  />
                 </div>
               </Box>
             </form>

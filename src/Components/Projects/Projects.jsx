@@ -9,7 +9,7 @@ export const Projects = () => {
   }, []);
 
   return (
-    <div className="div-container-projects">
+    <div className="div-container-projects" id='projects'>
       <div className="div-container-elements-experience">
         <p className="p-title-experience" data-aos="fade-right">
           PROJECTS

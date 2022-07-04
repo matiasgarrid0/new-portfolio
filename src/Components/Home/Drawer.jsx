@@ -28,9 +28,9 @@ export const Drawer = () => {
             style={{
               height: 38,
               width: 38,
-              marginLeft: 15,
+              marginLeft: 60,
               cursor: "pointer",
-              color: "#fff",
+              color: '#ff6565'
             }}
           >
             <MenuIcon />
@@ -43,9 +43,9 @@ export const Drawer = () => {
           >
             <div className="div-drawer-contain">
               <div className="div-container-menu-mobile">
-                <a href="/">HOME</a>
-                <a href="/">PROJECTS</a>
-                <a href="/">CONTACT ME</a>
+                <a  href="#experience" >EXPERIENCE</a>
+                <a href="#projects">PROJECTS</a>
+                <a href="#contact">CONTACT</a>
               </div>
             </div>
           </SwipeableDrawer>

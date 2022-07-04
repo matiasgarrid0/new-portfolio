@@ -78,6 +78,7 @@
   .div-card-container-project {
     display: flex;
     flex-direction: column;
+    width: 0;
   }
   .div-text-project {
     width: 20rem;
@@ -98,4 +99,5 @@
     font-size: 1.3rem;
     padding: 0.5rem 2rem;
   }
+
 }

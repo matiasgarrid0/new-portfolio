@@ -9,7 +9,7 @@ export const Experience = () => {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div className="div-container-experience">
+    <div className="div-container-experience" id='experience'>
       <div className="div-container-elements-experience">
         <p data-aos="fade-right" className="p-title-experience">
           EXPERIENCE
