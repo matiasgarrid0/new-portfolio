@@ -43,7 +43,7 @@ export const Drawer = () => {
           >
             <div className="div-drawer-contain">
               <div className="div-container-menu-mobile">
-                <a  href="#experience" >EXPERIENCE</a>
+                <a href="#experience">EXPERIENCE</a>
                 <a href="#projects">PROJECTS</a>
                 <a href="#contact">CONTACT</a>
               </div>
