@@ -22,8 +22,8 @@ export const Projects = () => {
                 <p className="p-title-project">{p.title}</p>
                 <p className="p-descritprion-project">{p.description}</p>
                 <div className="container-buttons-project">
-                  <button className="button-visit-project">Visit site</button>
-                  <button className="button-visit-repository">Repository</button>
+                  <a href={p.site}><button className="button-visit-project">Visit site</button></a>
+                  <a href={p.repository}><button className="button-visit-repository">Repository</button></a>
                 </div>
               </div>
               <div>

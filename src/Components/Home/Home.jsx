@@ -13,18 +13,22 @@ export const Home = () => {
               Hello<span className="span-hello-home">!</span>
             </p>
             <p className="p-text-home">
-              I am a Jr Full stack developer from Argentina with
-              experience in Front-End. Here you can see my projects, expirience,
-              skills and contactme
+              I am a Jr Full stack developer from Argentina with experience in
+              Front-End. Here you can see my projects, expirience, skills and
+              contactme
             </p>
           </div>
           <div className="container-buttons-home">
-            <button className="button-home-projects">
-              Projects <MdKeyboardArrowRight />
-            </button>
-            <button className="button-home-hire">
-              I'm looking to hire <MdKeyboardArrowRight />
-            </button>
+            <a style={{textDecoration: 'none'}} href="https://github.com/matiasgarrid0">
+              <button className="button-home-projects">
+                Projects <MdKeyboardArrowRight />
+              </button>
+            </a>
+            <a style={{textDecoration: 'none'}} href="https://www.linkedin.com/in/matias-garridodev/">
+              <button className="button-home-hire">
+                I'm looking to hire <MdKeyboardArrowRight />
+              </button>
+            </a>
           </div>
         </div>
       </div>
