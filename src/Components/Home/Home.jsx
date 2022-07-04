@@ -13,7 +13,7 @@ export const Home = () => {
               Hello<span className="span-hello-home">!</span>
             </p>
             <p className="p-text-home">
-              I am a Jr Full stack developer from Mendoza, Argentina with
+              I am a Jr Full stack developer from Argentina with
               experience in Front-End. Here you can see my projects, expirience,
               skills and contactme
             </p>

@@ -16,7 +16,7 @@ export const Projects = () => {
         </p>
         <div className="div-container-projets-cards">
           {projects.map((p) => (
-            <div className="div-card-container-project" data-aos="fade-right">
+            <div key={p.id} className="div-card-container-project" data-aos="fade-right">
               <img className="img-laptop-project" src={p.img} alt="laptop" />
               <div className="div-text-project">
                 <p className="p-title-project">{p.title}</p>
