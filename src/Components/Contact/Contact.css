@@ -64,7 +64,7 @@
 
 .img-contact {
   width: 15rem;
-  margin-right: 10rem;
+  margin-right: 40rem;
 }
 
 .field-email{
@@ -97,11 +97,46 @@
 /*-----------------------------------------------------------------*/
 
 @media (max-width: 600px) {
+    .div-container-contact{
+        height: 46rem;
+    }
     .div-container-elemnts-contact{
         flex-direction: column;
     }
     .img-contact {
-        width: 15rem;
+        display: none;
+    }
+      .div-card-contact {
+        width: 20rem;
+        margin-top: 1rem;
       }
-      
+      .box-contact{
+        width: 18rem;
+    }
+    .container-img-div-contact{
+        width: 20rem;
+        margin-right: 0;
+    }
+    .text-contact {
+        font-size: 1.5rem;
+        width: 18rem;
+    } 
+    .title-text-contact{
+        font-size: 1.8rem;
+        font-weight: 600;
+        margin: 0;
+    }
+    
+    .text-contact{
+        font-size: 1.1rem;
+        width: 18rem;
+    }
+    .container-button-form {
+        display: flex;
+        justify-content: space-around;
+    }
+    .button-form-contact{
+        width: 18rem;
+    }
 }
+
